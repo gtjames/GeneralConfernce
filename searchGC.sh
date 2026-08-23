@@ -2,7 +2,7 @@
 # Check if search string is provided
 if [ "$#" -ne 3 ]; then
   echo "Usage: $0 <year> <month> <searchPhrase>"
-  echo "Usage: $0 2023 04/10 garments"
+  echo "Usage: $0 2023 04(or 10) garments"
   exit 1
 fi
 
